@@ -603,7 +603,7 @@ public class EjecucionInicioPrueba extends AbstractTest {
 //		presionarMenuConfiguracion();
 //		presionarIniciarSesionMenuyTablet();
 //		presionarCercaMiAceptarPermisos();
-//		presionarCercaMi();
+		presionarCercaMi();
 
 	}
 
