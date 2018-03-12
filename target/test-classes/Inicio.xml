@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PruebaInicio" verbose="1" parallel="tests"
+	preserver-order="true" >
+	<test name="IPHONE 5s - GMALV ">
+		<parameter name="UID" value="f941a0b97f75485f63956183966f51d1cdcacc7e" />
+		<parameter name="deviceName" value="iPhone5s" />
+		<parameter name="DEVICE" value="iPhone6,2" />
+		<parameter name="USER" value="548" />
+		<parameter name="DATA" value="false" />
+		<classes>
+			<class name="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba" />
+		</classes>
+	</test>
+	<test name="Nexus 7 - GMALV">
+		<parameter name="UID" value="05b6d672" />
+		<parameter name="DEVICE" value="Nexus 7" />
+		<parameter name="USER" value="367" />
+		<parameter name="DATA" value="false" />
+		<classes>
+			<class name="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba" />
+		</classes>
+	</test>
+</suite> <!-- PruebaInicio -->

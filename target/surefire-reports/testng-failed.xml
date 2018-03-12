@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PruebaInicio]" parallel="tests">
+  <parameter name="UID" value="05b6d672"/>
+  <parameter name="DATA" value="false"/>
+  <parameter name="DEVICE" value="Nexus 7"/>
+  <parameter name="USER" value="367"/>
+  <parameter name="deviceName" value="iPhone5s"/>
+  <test name="Nexus 7 - GMALV(failed)" parallel="tests">
+    <parameter name="UID" value="05b6d672"/>
+    <parameter name="DATA" value="false"/>
+    <parameter name="DEVICE" value="Nexus 7"/>
+    <parameter name="USER" value="367"/>
+    <classes>
+      <class name="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setOut"/>
+          <include name="EjecutarNavegacionGeneral"/>
+        </methods>
+      </class> <!-- ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba -->
+    </classes>
+  </test> <!-- Nexus 7 - GMALV(failed) -->
+  <test name="IPHONE 5s - GMALV (failed)" parallel="tests">
+    <parameter name="UID" value="f941a0b97f75485f63956183966f51d1cdcacc7e"/>
+    <parameter name="DATA" value="false"/>
+    <parameter name="DEVICE" value="iPhone6,2"/>
+    <parameter name="USER" value="548"/>
+    <parameter name="deviceName" value="iPhone5s"/>
+    <classes>
+      <class name="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setOut"/>
+          <include name="EjecutarNavegacionGeneral"/>
+        </methods>
+      </class> <!-- ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba -->
+    </classes>
+  </test> <!-- IPHONE 5s - GMALV (failed) -->
+</suite> <!-- Failed suite [PruebaInicio] -->

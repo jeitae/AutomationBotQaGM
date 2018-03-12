@@ -1,0 +1,12 @@
+ProyectoMovil/Automatizacion/Componentes/Pruebas/AccionesUniversales.class
+ProyectoMovil/Automatizacion/Utilitario/STFService.class
+ProyectoMovil/Automatizacion/Componentes/Pruebas/InicioPruebas.class
+ProyectoMovil/Automatizacion/Utilitario/AbstractTest.class
+ProyectoMovil/Automatizacion/Utilitario/ClaseLog.class
+ProyectoMovil/Automatizacion/Ejecutar/Pruebas/EjecucionInicioPrueba.class
+ProyectoMovil/Automatizacion/Utilitario/Suite.class
+ProyectoMovil/Automatizacion/Utilitario/HiloTiempo.class
+ProyectoMovil/Automatizacion/Componentes/ComponentesGenerales.class
+ProyectoMovil/Automatizacion/app/MutualMovil.class
+ProyectoMovil/Automatizacion/Utilitario/IntegracionDataBase.class
+ProyectoMovil/Automatizacion/app/AbstractScreen.class

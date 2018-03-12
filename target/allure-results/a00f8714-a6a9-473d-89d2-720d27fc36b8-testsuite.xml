@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1519670255046" stop="1519670316411" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>PruebaInicio : IPHONE 5s - GMALV [UID=f941a0b97f75485f63956183966f51d1cdcacc7e, DATA=false, DEVICE=iPhone6,2, USER=548, deviceName=iPhone5s]</name>
+    <title>PruebaInicio : IPHONE 5s - GMALV [UID=f941a0b97f75485f63956183966f51d1cdcacc7e, DATA=false, DEVICE=iPhone6,2, USER=548, deviceName=iPhone5s]</title>
+    <test-cases>
+        <test-case start="1519670280351" stop="1519670316133" status="failed">
+            <name>EjecutarNavegacionGeneral</name>
+            <title>Probar navegacion</title>
+            <description type="text">Prueba general de navegacion de la aplicación ordenadas por pasos</description>
+            <failure>
+                <message>AssertionError: Error QA: No se ha logrado validar en presionarSalirNotificaciones.
+Parte de los componentes del aplicativo no son accesibles.
+Revise el estado el ambiente de certificacion.
+Presionar Salir de notificaciones no se realiza de manera correcta, revise que no tenga algun componente sobre o tenga una nombre de variable diferente.</message>
+                <stack-trace>java.lang.AssertionError: Error QA: No se ha logrado validar en presionarSalirNotificaciones.
+Parte de los componentes del aplicativo no son accesibles.
+Revise el estado el ambiente de certificacion.
+Presionar Salir de notificaciones no se realiza de manera correcta, revise que no tenga algun componente sobre o tenga una nombre de variable diferente.
+	at org.testng.Assert.fail(Assert.java:94)
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.presionarSalirNotificaciones(EjecucionInicioPrueba.java:153)
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.EjecutarNavegacionGeneral(EjecucionInicioPrueba.java:590)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1519670280358" stop="1519670282968" status="passed">
+                    <name>girarVertical</name>
+                </step>
+                <step start="1519670282969" stop="1519670282992" status="passed">
+                    <name>aceptarPermisos</name>
+                </step>
+                <step start="1519670282993" stop="1519670298844" status="passed">
+                    <name>abrirAplicacionTimeOut</name>
+                    <attachments>
+                        <attachment title="EjecucionInicioPrueba" source="597fd4c3-3e39-455f-ae00-d9d4764ca9ca-attachment.png" type="image/png"/>
+                        <attachment title="Tiempo demorado al entrar 1: " source="ae17f505-aa86-4930-829f-78f958138cd6-attachment.txt" type="text/plain"/>
+                        <attachment title="EjecucionInicioPrueba" source="3255d47d-1a30-4b1b-8d4a-00036e028046-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1519670298845" stop="1519670306513" status="passed">
+                    <name>presionarHome</name>
+                    <attachments>
+                        <attachment title="EjecucionInicioPrueba" source="cc4f9a0e-c161-418d-9198-dcb2ef35ef13-attachment.png" type="image/png"/>
+                        <attachment title="EjecucionInicioPrueba" source="48d494ea-f6bb-4e03-a97e-c2ed9b0bbc94-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1519670306513" stop="1519670313706" status="passed">
+                    <name>presionarNotificaciones</name>
+                    <attachments>
+                        <attachment title="EjecucionInicioPrueba" source="b01445a7-9c6a-4bc4-86a5-a5570875407f-attachment.png" type="image/png"/>
+                        <attachment title="EjecucionInicioPrueba" source="f6906cba-0256-4878-b082-c1bbb2b7f788-attachment.png" type="image/png"/>
+                    </attachments>
+                </step>
+                <step start="1519670313706" stop="1519670316133" status="failed">
+                    <name>presionarSalirNotificaciones</name>
+                    <attachments>
+                        <attachment title="EjecucionInicioPrueba" source="83eaf195-3cc2-47a8-a8a8-d266eaab211e-attachment.png" type="image/png"/>
+                        <attachment title="Error Tecnico" source="cfcdad26-d6b7-426d-aa29-942ddf8a4386-attachment.txt" type="text/plain"/>
+                    </attachments>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Error Esperado" source="ce3dc8fc-9fd5-4bb0-856e-3e140d21bad1-attachment.txt" type="text/plain"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PruebaInicio"/>
+                <label name="testGroup" value="IPHONE 5s - GMALV "/>
+                <label name="testClass" value="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba"/>
+                <label name="testMethod" value="EjecutarNavegacionGeneral"/>
+                <label name="severity" value="normal"/>
+                <label name="story" value="Probar navegacion"/>
+                <label name="feature" value="Ejecucion de pruebas exploratorias iniciales"/>
+                <label name="host" value="OCTI107.local"/>
+                <label name="thread" value="12688@OCTI107.local.TestNG(13)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

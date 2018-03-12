@@ -1,0 +1,66 @@
+2018-02-26 12:35:55:055 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: 
+----------------------------------------------------------------------
+
+2018-02-26 12:35:55:055 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- Error en Error _BEFORE_N1
+
+2018-02-26 12:35:55:055 - [ERROR] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: N1: Se inicia el corrido SIN AUTORIZACION del STF AUTORIZACION-302d387b-5073-4a8e-b603-014ced52f1c5 Settings: {"useJSONSource":false,"nativeWebTap":false}
+2018-02-26 12:35:58:058 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.AccionesUniversales: 
+----------------------------------------------------------------------
+
+2018-02-26 12:35:58:058 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.AccionesUniversales: LA ORIENTACION ES: PORTRAIT
+2018-02-26 12:36:12:012 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: 
+----------------------------------------------------------------------
+
+2018-02-26 12:36:12:012 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- HiloTiempo -----
+
+2018-02-26 12:36:12:012 - [ERROR] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: NE1: java.lang.InterruptedException: sleep interrupted
+2018-02-26 12:36:32:032 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: 
+----------------------------------------------------------------------
+
+2018-02-26 12:36:32:032 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- Error en presionarSalirNotificaciones
+
+2018-02-26 12:36:32:032 - [ERROR] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: NE5: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: v1.5.12.2" 
+- html content: "by id or name "salirNotificaciones""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'OCTI107.local', ip: '10.10.1.143', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+2018-02-26 12:36:32:032 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: 
+----------------------------------------------------------------------
+
+2018-02-26 12:36:32:032 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: --->Dispositivo: iPhone6,2 termina la ejecucion de sus pruebas sin ir a base de datos<---
+
+2018-02-26 12:38:00:000 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: 
+----------------------------------------------------------------------
+
+2018-02-26 12:38:00:000 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- Error en Error _BEFORE_N1
+
+2018-02-26 12:38:00:000 - [ERROR] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: N1: Se inicia el corrido SIN AUTORIZACION del STF AUTORIZACION-03be3789-9a71-436b-8f9d-ce9697c4f480 Settings: {"useJSONSource":false,"nativeWebTap":false}
+2018-02-26 12:38:02:002 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.AccionesUniversales: 
+----------------------------------------------------------------------
+
+2018-02-26 12:38:02:002 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.AccionesUniversales: LA ORIENTACION ES: PORTRAIT
+2018-02-26 12:38:17:017 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: 
+----------------------------------------------------------------------
+
+2018-02-26 12:38:17:017 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- HiloTiempo -----
+
+2018-02-26 12:38:17:017 - [ERROR] - ProyectoMovil.Automatizacion.Utilitario.HiloTiempo: NE1: java.lang.InterruptedException: sleep interrupted
+2018-02-26 12:38:36:036 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: 
+----------------------------------------------------------------------
+
+2018-02-26 12:38:36:036 - [INFO ] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: -----f941a0b97f75485f63956183966f51d1cdcacc7e---- Error en presionarSalirNotificaciones
+
+2018-02-26 12:38:36:036 - [ERROR] - ProyectoMovil.Automatizacion.Componentes.Pruebas.InicioPruebas: NE5: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.id: v1.5.12.2" 
+- html content: "by id or name "salirNotificaciones""
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'OCTI107.local', ip: '10.10.1.143', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+2018-02-26 12:38:36:036 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: 
+----------------------------------------------------------------------
+
+2018-02-26 12:38:36:036 - [INFO ] - ProyectoMovil.Automatizacion.Utilitario.AbstractTest: --->Dispositivo: iPhone6,2 termina la ejecucion de sus pruebas sin ir a base de datos<---
+

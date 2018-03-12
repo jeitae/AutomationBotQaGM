@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PruebaInicio">
+              <span class="suite-name border-failed">PruebaInicio</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PruebaInicio">
+                    <span>Inicio.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PruebaInicio">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PruebaInicio">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PruebaInicio">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PruebaInicio">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PruebaInicio">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PruebaInicio">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PruebaInicio" class="hide-methods failed suite-PruebaInicio"> (hide)</a> <!-- hide-methods failed suite-PruebaInicio -->
+                      <a href="#" panel-name="suite-PruebaInicio" class="show-methods failed suite-PruebaInicio"> (show)</a> <!-- show-methods failed suite-PruebaInicio -->
+                    </span>
+                    <div class="method-list-content failed suite-PruebaInicio">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PruebaInicio" title="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba" hash-for-method="EjecutarNavegacionGeneral">EjecutarNavegacionGeneral</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PruebaInicio -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PruebaInicio" class="hide-methods skipped suite-PruebaInicio"> (hide)</a> <!-- hide-methods skipped suite-PruebaInicio -->
+                      <a href="#" panel-name="suite-PruebaInicio" class="show-methods skipped suite-PruebaInicio"> (show)</a> <!-- show-methods skipped suite-PruebaInicio -->
+                    </span>
+                    <div class="method-list-content skipped suite-PruebaInicio">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PruebaInicio" title="ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba" hash-for-method="EjecutarNavegacionGeneral">EjecutarNavegacionGeneral</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PruebaInicio -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Pruebas_generales" class="panel Pruebas_generales">
+        </div> <!-- panel Pruebas_generales -->
+        <div panel-name="suite-PruebaInicio" class="panel PruebaInicio">
+          <div class="suite-PruebaInicio-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EjecutarNavegacionGeneral">
+                  </a> <!-- EjecutarNavegacionGeneral -->
+                  <span class="method-name">EjecutarNavegacionGeneral</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error QA: No se ha logrado validar en presionarSalirNotificaciones.
+Parte de los componentes del aplicativo no son accesibles.
+Revise el estado el ambiente de certificacion.
+Presionar Salir de notificaciones no se realiza de manera correcta, revise que no tenga algun componente sobre o tenga una nombre de variable diferente.
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.presionarSalirNotificaciones(EjecucionInicioPrueba.java:153)
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.EjecutarNavegacionGeneral(EjecucionInicioPrueba.java:590)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PruebaInicio-class-failed -->
+          <div class="suite-PruebaInicio-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EjecutarNavegacionGeneral">
+                  </a> <!-- EjecutarNavegacionGeneral -->
+                  <span class="method-name">EjecutarNavegacionGeneral</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PruebaInicio-class-skipped -->
+        </div> <!-- panel PruebaInicio -->
+        <div panel-name="test-xml-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/moviltest/practicas/Automatizacion/src/test/resources/Plan_de_Pruebas.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Pruebas generales&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;src/test/resources/Inicio.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Pruebas generales --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/moviltest/practicas/Automatizacion/src/test/resources/Inicio.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;PruebaInicio&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;IPHONE 5s - GMALV &quot;&gt;
+    &lt;parameter name=&quot;UID&quot; value=&quot;f941a0b97f75485f63956183966f51d1cdcacc7e&quot;/&gt;
+    &lt;parameter name=&quot;DATA&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;DEVICE&quot; value=&quot;iPhone6,2&quot;/&gt;
+    &lt;parameter name=&quot;USER&quot; value=&quot;548&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;iPhone5s&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IPHONE 5s - GMALV  --&gt;
+  &lt;test name=&quot;Nexus 7 - GMALV&quot;&gt;
+    &lt;parameter name=&quot;UID&quot; value=&quot;05b6d672&quot;/&gt;
+    &lt;parameter name=&quot;DATA&quot; value=&quot;false&quot;/&gt;
+    &lt;parameter name=&quot;DEVICE&quot; value=&quot;Nexus 7&quot;/&gt;
+    &lt;parameter name=&quot;USER&quot; value=&quot;367&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Nexus 7 - GMALV --&gt;
+&lt;/suite&gt; &lt;!-- PruebaInicio --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Pruebas generales</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PruebaInicio</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">IPHONE 5s - GMALV  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Nexus 7 - GMALV (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Pruebas generales</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PruebaInicio</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Pruebas generales</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Pruebas_generales');
+function tableData_Pruebas_generales() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Pruebas_generales']= { tableData: data, tableDiv: 'times-div-Pruebas_generales'}
+return data;
+}
+              </script>
+              <div id="times-div-Pruebas_generales">
+              </div> <!-- times-div-Pruebas_generales -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PruebaInicio</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PruebaInicio');
+function tableData_PruebaInicio() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EjecutarNavegacionGeneral')
+data.setCell(0, 2, 'ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba')
+data.setCell(0, 3, 35785);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EjecutarNavegacionGeneral')
+data.setCell(1, 2, 'ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba')
+data.setCell(1, 3, 3);
+window.suiteTableData['PruebaInicio']= { tableData: data, tableDiv: 'times-div-PruebaInicio'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-PruebaInicio">
+              </div> <!-- times-div-PruebaInicio -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Pruebas generales</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PruebaInicio</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Pruebas_generales" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PruebaInicio" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(05b6d672, null)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(f941a0b97f75485f63956183966f51d1cdcacc7e, iPhone5s)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EjecutarNavegacionGeneral</span>
+                <span class="method-start">4625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EjecutarNavegacionGeneral</span>
+                <span class="method-start">25293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">setOut(f941a0b97f75485f63956183966f51d1cdcacc7e, iPhone6,2, 548, false)</span>
+                <span class="method-start">61078 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

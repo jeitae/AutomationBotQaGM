@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 62.205 sec <<< FAILURE! - in TestSuite
+setup(ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba)  Time elapsed: 5.335 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+EjecutarNavegacionGeneral(ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba)  Time elapsed: 35.784 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Error QA: No se ha logrado validar en presionarSalirNotificaciones.
+Parte de los componentes del aplicativo no son accesibles.
+Revise el estado el ambiente de certificacion.
+Presionar Salir de notificaciones no se realiza de manera correcta, revise que no tenga algun componente sobre o tenga una nombre de variable diferente.
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.presionarSalirNotificaciones(EjecucionInicioPrueba.java:153)
+	at ProyectoMovil.Automatizacion.Ejecutar.Pruebas.EjecucionInicioPrueba.EjecutarNavegacionGeneral(EjecucionInicioPrueba.java:590)
+
